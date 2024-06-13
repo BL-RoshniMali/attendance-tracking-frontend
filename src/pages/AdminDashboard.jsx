@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dashboard.css";
+import "./AdminDashboard.css";
 import profilepic from "../assets/profile-icon.png";
 
 export default function dashboard() {
@@ -63,7 +63,7 @@ export default function dashboard() {
                 <label htmlFor="nav-toggle">
                   <span className="las la-bars"></span>
                 </label>
-                Dashboard
+                Admin Dashboard
               </h2>
               <div className="search-wrapper">
                 <span className="las la-search"></span>
@@ -108,17 +108,6 @@ export default function dashboard() {
                   </div>
                 </div>
               </div>
-
-              {/* <div className="recent-grid">
-                <div className="projects">
-                  <div className="card">
-                    <div className="card-header">
-                      <h2>Recent Project</h2>
-                    </div>
-                  </div>
-                </div>
-
-              </div> */}
             </main>
           </div>
         </body>
